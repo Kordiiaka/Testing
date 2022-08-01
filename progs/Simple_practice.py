@@ -1,7 +1,10 @@
-from functools import reduce
-list_1 = [1, 2, 3, 4, 5]
-list_2 = [6, 7, 8, 9, 10]
+def solution(number):
+    suma = 0
+    for x in range(number):
+        if x%3 == 0 or x%5 == 0:
+            suma += x
+    return suma
 
-sum = reduce(lambda x, y: x + y, list_1)
-print(sum)
+print(solution(-2))
+
 
