@@ -5,6 +5,6 @@ def solution(number):
             suma += x
     return suma
 
-print(solution(-2))
+print(solution(-1))
 
 
